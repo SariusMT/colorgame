@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="colorGame.css">
     <title>Game Color</title>
 </head>
 <body>
+<h1>Guess the color
+    <br>
+    <span id="colorDisplay">RGB</span>
+    <br>
+    game</h1>
 
+<div id="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message"></span>
+    <button class="mode">Easy</button>
+    <button class="mode selected">Hard</button>
+</div>
+
+
+<div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+<script src="colorGame.js"></script>
 </body>
 </html>
